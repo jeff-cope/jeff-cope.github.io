@@ -1,1 +1,0 @@
-# jeff-cope.github.io
