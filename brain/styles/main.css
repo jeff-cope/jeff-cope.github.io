@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: grey;
+}
+
+h3{
+    font-family: Lucida handwriting;
+}
+
+a{
+    color:aliceblue;
+}
+a:visited{
+    color: purple;
+}
+a:hover, a:active{
+    color: lightblue;
+}
