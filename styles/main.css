@@ -1,35 +1,51 @@
+html{
+    background-image: linear-gradient(to right, white 0%, blue 100%);
+    background-repeat: no-repeat;
+}
 
 body{
-	background-color: black;
-	background-image: url("../images/catWomen6.png");
-	background-repeat: no-repeat;
-	margin: .5em 1em;
-	 
- }
-
-h1{
-	font-family: Monaco,monospace;
-	color: white;
-	font-size: 300%;
-	
-	text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 700px;
+    background-color: azure;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
 }
 
-main{
-	font-family: Lucida Handwriting;
-	color: white;
+header{
+    padding-bottom: 1em;
+    border-bottom: 2px solid #1500ff;
 }
-ul{
-	color:whitesmoke;
-	font-family: Monaco,monospace;
-	list-style-type: none;
+
+header img{float: left;}
+
+header h2{
+    font-size: 220%;
+    text-align: center;
+    text-shadow: 2px 2px 0 grey;
+    margin-bottom: .25em;
+}
+
+header h3{
+    font-size: 130%;
+    text-align: center;
+    font-style: italic;
+}
+
+main{clear: left;}
+
+main h1{
+    font-size: 175%;
+    margin: 1em 0 .35em;
+}
+main h2{
+    font-size: 130%;
 }
 footer{
-	
-	font-family: Monaco,monospace;
-	color: white;
-	
-	text-align: center;
-	
+    margin-top: 2em;
+    border-top: 2px solid blue;
+    text-align: right;
 }
-
