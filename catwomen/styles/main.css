@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	font-family: Monaco,monospace;
+	color: rgb(204, 191, 191);
+	background-color: black;
+	background-image: url("../images/catWomen6.png");
+	background-repeat: no-repeat;
+	margin: .5em 1em;
+	 
+ }
+
+h1{
+	font-family: Monaco,monospace;
+	color: rgb(204, 191, 191);
+	font-size: 400%;
+	margin-bottom: 10%;
+	text-align: center;
+	
+	
+}
+
+h2{
+	font-family: Lucida Handwriting;
+	color: rgb(197, 195, 195);
+	margin-top: 0%;
+	margin-left: 2%;
+}
+
+footer{
+	
+	font-family: Monaco,monospace;
+	color: white;
+	
+	text-align: center;
+	
+}
+
+
+
+
