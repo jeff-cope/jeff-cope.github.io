@@ -1,51 +1,53 @@
-html{
-    background-image: linear-gradient(to right, white 0%, blue 100%);
-    background-repeat: no-repeat;
-}
-
 body{
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 100%;
+    background-color: rgb(43, 42, 42);
+    color: lightgray;
+    background-image: url("../catwomen/images/catwomen12.png");
+}
+
+h1{
+    font-size: 400%;
+    color: lavender;
+    text-shadow: 4px 4px 4px red;
+    margin: 2%;
+}
+
+.movies a:link{color:black}
+.movies a:hover, a:focus{color: red;}
+a:visited{color: lightblue;}
+.movies img{ float: right;}
+.movies h2{
+    text-align: center;
+    margin-top: 1%;
+}
+#movies{
+    margin-left: 3%;
+    margin-bottom: 3%;
     width: 700px;
-    background-color: azure;
-    margin: 15px auto;
-    padding: 15px 1.5em;
-    border: 1px solid black;
+    color: black;
+    border: 2px solid;
+    border-color: black;
     border-radius: 25px;
-    box-shadow: 5px 5px 0 0;
+    background-image: linear-gradient(to right, lightgray 0%, black 100%);
+    padding: 2%;
 }
 
-header{
-    padding-bottom: 1em;
-    border-bottom: 2px solid #1500ff;
+.places{
+    margin-left: 3%;
+    margin-left: 5%;
+    width: 700px;
+    color: black;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(138, 127, 156) 0%, black 100%);
+    padding: 3%;
+    
 }
-
-header img{float: left;}
-
-header h2{
-    font-size: 220%;
-    text-align: center;
-    text-shadow: 2px 2px 0 grey;
-    margin-bottom: .25em;
+.places img{
+    float: left;
 }
-
-header h3{
-    font-size: 130%;
-    text-align: center;
-    font-style: italic;
+.places h2{
+    margin-left: 125px;
+    border: 2px solid;
 }
-
-main{clear: left;}
-
-main h1{
-    font-size: 175%;
-    margin: 1em 0 .35em;
-}
-main h2{
-    font-size: 130%;
-}
-footer{
-    margin-top: 2em;
-    border-top: 2px solid blue;
-    text-align: right;
-}
+.places h3{margin-left: 150px;}
